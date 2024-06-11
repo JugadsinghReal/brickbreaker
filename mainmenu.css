@@ -1,0 +1,60 @@
+*{
+    font-family: sans-serif
+}
+
+
+body{
+    background-color: black;
+}
+
+
+.title1{
+    font-size: 100px;
+    color: red;
+    border: blue solid 1px;
+    background-color: blue;
+    position: absolute;
+    left: 440px;
+    width: 500px;
+    height: 200px;
+    text-align: right;
+}
+.title2{
+    font-size: 100px;
+    color: blue;
+    border: red solid 1px;
+    background-color: red;
+    position: absolute;
+    left: 950px;
+    width: 500px;
+    text-align: left;
+    height: 200px;
+}
+.start{
+    z-index: 1;
+    border: solid white 1px;
+    background-color: white;
+    position: absolute;
+    font-size: 80px;
+    left: 735px;
+    bottom: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+.start:hover{
+    cursor: pointer;
+}
+
+.inst{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 750px;
+    bottom: 250px;
+}
+#main{
+    z-index: 0;
+    position: absolute;
+    left: 440px;
+}

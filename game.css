@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+#main{
+    position: absolute;
+    left: 440px;
+}
+
+
+
+.score{
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    bottom: 2px;
+}
+.scorenum{
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    bottom: 2px;
+    left: 120px;
+}
+.life{
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    bottom: 2px;
+    right: 25px;
+}
+.lifenum{
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    bottom: 2px;
+    right: 1px
+}
